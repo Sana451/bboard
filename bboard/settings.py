@@ -2,7 +2,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-h2()_$d4nodj2oq7&#cit0r8d@a9qvvygigfiv928me5pjy+6!'
+SECRET_KEY = SECRET_KEY
 
 DEBUG = True
 
@@ -140,9 +140,9 @@ EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 2525
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-EMAIL_HOST_USER = 'Sana451@mail.ru'
-EMAIL_HOST_PASSWORD = '91uVdKn8AZgWgvY3eiXD'
-DEFAULT_FROM_EMAIL = 'Sana451@mail.ru'
+EMAIL_HOST_USER = EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD = EMAIL_HOST_PASSWORD
+DEFAULT_FROM_EMAIL = DEFAULT_FROM_EMAIL
 
 DEBUG_TOOLBAR_CONFIG = {
     'EXTRA_SIGNALS': [
