@@ -87,8 +87,8 @@ DATABASES = {
         'NAME': 'bboard2',  # sana456$bboard2
         'HOST': 'sana456.mysql.pythonanywhere-services.com',
         'PORT': '3306',
-        'USER': 'sana456',
-        'PASSWORD': 'Winners_choice12345678'
+        'USER': USER,
+        'PASSWORD': PASSWORD
     }
 }
 
